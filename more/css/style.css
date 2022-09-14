@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+	background:black ;
+	font-family: 'Montserrat', sans-serif;
+	font-sie: 15px;
+	color: white;
+	line-height: 1.5;
+}
+
+/*cream un conteiner*/
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/*marginea de sus atribuim 0*/
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+/*creem conteineru pentru introducere*/
+.interfata{
+	width: 100%;
+	/*dimensiunea la ecranulul utilizatorului*/
+	height: 100vh;
+}
+.textu{
+	margin: 50px;
+	font-size: 120px;
+	font-weight: 700;
+	color: red;
+	text-transform:uppercase;
+	text-align:center ;
+}
+
+.prima_pag{
+	font-size: 14;
+	text-transform:uppercase ;
+}
+.link_nav1{
+	color:#fff;
+	text-decoration:none ;
+	margin: 5px;
+	margin-left:58%;
+	position: relative;
+	/*deplasam la margina textul*/
+}
+.link_nav{
+	color:#fff;
+	text-decoration:none ;
+margin: 10px;
+position: relative;
+	/*deplasam la margina textul*/
+}
+/*sublinierea, animatia*/
+.link_nav1:after{
+	content: "";
+	display:block;
+	width:100%;
+	height: 3px;
+	display: none;
+	background-color:#fff;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+
+}
+.link_nav:after{
+	content: "";
+	display:block;
+	width:100%;
+	height: 3px;
+	display: none;
+	background-color:#fff;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+}
+/*animatia la apasare*/
+.link_nav:hover{
+	color: #FF4500;
+}
+.link_nav1:hover{
+	color: #FF4500;
+}
+.link_nav:hover: after{
+	display: block;
+}
+.link_nav1:hover: after{
+	display: block;
+}
+
+/*.hr{
+	border: none;
+	background-color:white;
+	height:5px;
+} */
