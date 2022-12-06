@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+header{
+	background:black ;
+	height: 100px;
+	text-align:right;
+
+}
+
+
+.list{
+	display: inline;
+}
+
+.link{
+	color: white;
+	text-decoration: none;
+	padding:15px ;
+	font-size: 25px;
+	font-family: 'Roboto';
+	font-style:bold;
+	padding-top: 3em;
+	transition: all .5s;
+}
+.link:hover{
+	border-bottom: solid 3px red;
+	color: red;
+
+}
+body{
+	background: black;
+}
+.text{
+	background: black;
+	border: 2px solid lightblue;
+	color: white;
+	width: 79%;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 1%;
+	margin-left: 10%;
+	font-size: 25px;
+	font-family: 'Roboto';
+	text-align: justify;
+}
+
+.footer{
+font-size: 25px;
+background:#000;
+padding:30px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:gray;
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:gray;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:#fff;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+.row{
+	font-size: 25px;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
+/*servicii*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+  padding: 10px;
+}
+.grid-item1 {
+  background-color: black;
+  border: 1px solid red;
+  padding: 20px;
+  font-size: 30px;
+  color:white;
+  text-align: center;
+}
+.grid-item{
+  background-color: black;
+  border: 1px solid red;
+  padding: 20px;
+  font-size: 20px;
+  color:white;
+  text-align: center;
+}
+.grid-item1:hover{
+	background: #494949;
+}
+.grid-item:hover{
+	background: #494949;
+}
+
+.title_legislatia {
+  padding: 20px;
+  background: black;
+  position: relative;
+}
+.title_legislatia:before {
+  content: "";
+  position: absolute;
+  border-top: 6px solid lightblue;
+  border-left: 6px solid lightblue;
+  width: 30px;
+  height: 30px;
+  top: 24px;
+  left: 24px;
+  z-index: 3;
+}
+.title_legislatia h1 {
+  min-width: 300px;
+  text-align: center;
+  border: 4px solid lightblue;
+  position: relative;
+  padding: 50px 0;
+  margin: 0;
+  font-family: 'Calibri', serif;
+}
+.title_legislatia h1:before {
+  content: "";
+  position: absolute;
+  width: 64px;
+  height: 46px;
+  border-bottom: 4px solid black;
+  left: -4px;
+  top: -4px;
+  background: black;
+}
+.title_legislatia h1:after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 60px;
+  border-top: 4px solid lightblue;
+  border-left: 4px solid lightblue;
+  left: 42px;
+  top: -4px;
+}
+.title_legislatia a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 0 white;
+}
+.title_legislatia span {
+  display: block;
+  text-transform: uppercase;
+  font-size: .5em;
+  margin-top: 5px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.lenta {
+	display: flex;
+width: 160px; 
+height: 35px; 
+font-size: 25px;
+padding-left: 5%;
+margin: 10px 0;
+border: 2px solid darkred;
+background: black;
+color: white;
+position: relative;
+}
+.lenta:after {
+content: "";
+width: 0; 
+height: 0;
+position: absolute; 
+top: -10px; 
+left: 100%;
+border-width: 30px 0 30px 50px;
+border-style: solid;
+border-color: transparent darkred;
+}
+.description{
+	margin-left: 20%;
+	font-size: 25px;
+	text-decoration: none;
+	border: 2px solid red;
+	padding-left: 5px;
+}
+.description a{
+	line-height: 50px;
+	text-decoration: none;
+	font-family: 'Calibri', serif;
+	color: white;
+}
+
+.description a:hover{
+	color: red;
+}
+
+
+

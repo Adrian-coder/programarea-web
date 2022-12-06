@@ -1,0 +1,117 @@
+body {
+  background-color: #d1f3e7;
+}
+
+/* forma */
+.form {
+  background: black;
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  border-radius: 25px;
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  border-top: 5px solid #0e3721;
+  border-bottom: 5px solid #0e3721;
+}
+
+.title{
+  display: block;
+  font-family: sans-serif;
+  margin: 10px auto 5px;
+  width: 300px;
+  color: white;
+}
+.pageTitle{
+  text-align:center;
+  font-size: 35px;
+  font-weight: bold;
+}
+.name {
+  background-color: lightgray;
+  color: white;
+  font-size: 15px;
+}
+.name:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 30px;
+  width: 380px;
+}
+
+.email {
+  background-color: lightgray;
+  height: 20px;
+  font-size: 15px;
+}
+
+.email:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 30px;
+  width: 380px;
+}
+
+.message {
+  overflow: hidden;
+  height: 100px;
+  font-size: 15px;
+  background: lightgray;
+}
+
+.message:hover {
+  height: 130px;
+  width: 380px;
+}
+
+.formEntry {
+  display: block;
+  margin: 30px auto;
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  transition: all 0.5s ease 0s;
+}
+
+.submit {
+  width: 200px;
+  color: white;
+  background-color: darkblue;
+  font-size: 20px;
+}
+
+.submit:hover {
+  background: powderblue;
+  color: black;
+}
+.workday{
+  padding-left: 10px;
+  line-height: 50px;
+   position: absolute;
+   top: 145px;
+   margin-left: 10%;
+   border-radius: 25px;
+   background: black;
+   color: white;
+   font-family: sans-serif;
+   width: 330px;
+   font-size: 25px;
+}
+.date_contact{
+  display: flex;
+  padding-left: 10px;
+  line-height: 50px;
+   position: absolute;
+   top: 265px;
+   margin-left: 67%;
+   border-radius: 25px;
+   background: black;
+   color: white;
+   font-family: sans-serif;
+   width: 230px;
+   font-size: 25px;
+}
